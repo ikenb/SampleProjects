@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRecruit", "DotNetRecruit\DotNetRecruit.csproj", "{7BE03B0F-E5F1-4DE8-A46A-5DBF10F5BDB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{E69037DD-33E2-405E-93FD-2797475A7196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRecruit.Test", "AnagramService.Test\DotNetRecruit.Test.csproj", "{1FF9288C-E922-443B-AF66-CA4656BA9D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE03B0F-E5F1-4DE8-A46A-5DBF10F5BDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE03B0F-E5F1-4DE8-A46A-5DBF10F5BDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE03B0F-E5F1-4DE8-A46A-5DBF10F5BDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE03B0F-E5F1-4DE8-A46A-5DBF10F5BDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF9288C-E922-443B-AF66-CA4656BA9D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF9288C-E922-443B-AF66-CA4656BA9D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF9288C-E922-443B-AF66-CA4656BA9D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF9288C-E922-443B-AF66-CA4656BA9D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FF9288C-E922-443B-AF66-CA4656BA9D4B} = {E69037DD-33E2-405E-93FD-2797475A7196}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B3B524C-1E60-4576-9A8B-59AC9A8AF94B}
+	EndGlobalSection
+EndGlobal
