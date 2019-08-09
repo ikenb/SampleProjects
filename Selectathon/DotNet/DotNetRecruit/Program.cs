@@ -30,15 +30,15 @@
     /// </summary>
     public class Program
     {
+       
         public static void Main(string[] args)
         {
             try
             {
-                var localPath = new Uri(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase)).LocalPath;
-                var dictionaryLocation = Path.Combine(localPath, "Dictionary.txt");
+                FileProcess fileProcess = new FileProcess();
                 var timer = new Stopwatch();
                 timer.Start();
-                var anagranResults = new AnagramService().Compute(dictionaryLocation);
+                var anagranResults = new AnagramService().Compute(fileProcess.LoadTextFile());
                 timer.Stop();
 
                 Console.WriteLine();

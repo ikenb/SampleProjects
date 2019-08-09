@@ -50,10 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnagramServiceTest.cs" />
+    <Compile Include="FileProcessTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetRecruit\DotNetRecruit.csproj">
+      <Project>{7be03b0f-e5f1-4de8-a46a-5dbf10f5bdb3}</Project>
+      <Name>DotNetRecruit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
