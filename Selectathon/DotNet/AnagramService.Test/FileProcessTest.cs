@@ -15,7 +15,7 @@ namespace AnagramService.Test
         }
         public void Initialize()
         {
-            dictionaryFile = @"Data\Dictionary.txt";
+            dictionaryFile = @"TestData\SampleDictionary.txt";
         }
         [TestMethod]
         public void FileExist_ReturnsTrue_IfFileExist()
@@ -42,7 +42,7 @@ namespace AnagramService.Test
 
             string filePath = fileProcess.LoadTextFile();
 
-            Assert.IsNotNull(filePath);
+            Assert.AreEqual(filePath.Substring(filePath.Length-14), dictionaryFile.Substring(dictionaryFile.Length - 14));
         }
 
         

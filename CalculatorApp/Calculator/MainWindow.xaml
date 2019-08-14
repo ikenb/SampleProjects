@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="445" Width="290">
+
+   
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -33,130 +35,130 @@
 
         <Button x:Name="cancelButton"
                 Grid.Row="1"
-                Margin="3"
                 Content="C"
+                Style="{StaticResource functionButtonsStyle}"
                 Click="CancelButton_Click">
         </Button>
         <Button x:Name="negativeButton"
                 Grid.Row="1"
-                Margin="3"
                 Grid.Column="1"
                 Content="+/-"
+                Style="{StaticResource functionButtonsStyle}"
                 Click="NegativeButton_Click">
         </Button>
         <Button x:Name="percentageButton"
                 Grid.Row="1"
-                Margin="3"
+                Style="{StaticResource functionButtonsStyle}"
                 Grid.Column="2"
+          
                 Content="%">
         </Button>
         <Button x:Name="divisionButton"
-                Grid.Row="1"
-                Margin="3"
+                Grid.Row="1"    
                 Grid.Column="3"
                 Content="/"
+                Style="{StaticResource operatorsButtonsStyle}"
                 Click="DivisionButton_Click">
         </Button>
         <Button x:Name="sevenButton"
                 Grid.Row="2"
-                Margin="3"
                 Content="7"
+                Style="{StaticResource numberButtonsStyle}"
                 Click="SevenButton_Click">
         </Button>
         <Button x:Name="eightButton"
                 Grid.Row="2"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="1"
-                Content="8"
+                Content="8"  
                 Click="EightButton_Click">
         </Button>
         <Button x:Name="nineButton"
                 Grid.Row="2"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="2"
                 Content="9"
                 Click="NineButton_Click">
         </Button>
         <Button x:Name="multiplyButton"
                 Grid.Row="2"
-                Margin="3"
                 Grid.Column="3"
                 Content="x"
+                Style="{StaticResource operatorsButtonsStyle}"
                 Click="MultiplyButton_Click">
         </Button>
         <Button x:Name="fourButton"
                 Grid.Row="3"
-                Margin="3"
-                Content="4"
+                 Style="{StaticResource numberButtonsStyle}"
+                Content="4"   
                 Click="FourButton_Click">
         </Button>
         <Button x:Name="fiveButton"
                 Grid.Row="3"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="1"
                 Content="5"
                 Click="FiveButton_Click">
         </Button>
         <Button x:Name="sixButton"
                 Grid.Row="3"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="2"
-                Content="6"
+                Content="6"             
                 Click="SixButton_Click">
         </Button>
         <Button x:Name="substractionButton"
                 Grid.Row="3"
-                Margin="3"
                 Grid.Column="3"
                 Content="-"
+                Style="{StaticResource operatorsButtonsStyle}"    
                 Click="SubstractionButton_Click">
         </Button>
         <Button x:Name="oneButton"
                 Grid.Row="4"
-                Margin="3"
-                Content="1"
+                Style="{StaticResource numberButtonsStyle}"
+                Content="1"             
                 Click="OneButton_Click">
         </Button>
         <Button x:Name="twoButton"
                 Grid.Row="4"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="1"
                 Content="2"
                 Click="TwoButton_Click">
         </Button>
         <Button x:Name="threeButton"
                 Grid.Row="4"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.Column="2"
-                Content="3"
                 Click="ThreeButton_Click">
         </Button>
         <Button x:Name="additionButton"
                 Grid.Row="4"
-                Margin="3"
                 Grid.Column="3"
-                Content="+"
+                Style="{StaticResource operatorsButtonsStyle}"
+                Content="+"         
                 Click="AdditionButton_Click">
         </Button>
         <Button x:Name="zeroButton"
                 Grid.Row="5"
-                Margin="3"
+                Style="{StaticResource numberButtonsStyle}"
                 Grid.ColumnSpan="2"
                 Content="0"
                 Click="ZeroButton_Click">
         </Button>
         <Button x:Name="dotButton"
                 Grid.Row="5"
-                Margin="3"
                 Grid.Column="2"
                 Content="."
+                Style="{StaticResource numberButtonsStyle}"
                 Click="DotButton_Click">
         </Button>
         <Button x:Name="equalsButton"
-                Grid.Row="5"
-                Margin="3"
+                Grid.Row="5"         
                 Grid.Column="3"
                 Content="="
+                Style="{StaticResource operatorsButtonsStyle}"
                 Click="EqualsButton_Click">
         </Button>
 

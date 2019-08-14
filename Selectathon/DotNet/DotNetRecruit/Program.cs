@@ -1,9 +1,9 @@
 ﻿namespace DotNetRecruit
 {
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
-    using System.IO;
-    using System.Reflection;
+    using System.Threading.Tasks;
 
     /// <summary>
     /// INSTRUCTIONS:
@@ -30,22 +30,33 @@
     /// </summary>
     public class Program
     {
-       
+
         public static void Main(string[] args)
         {
             try
             {
                 FileProcess fileProcess = new FileProcess();
-                var timer = new Stopwatch();
+                Stopwatch timer = new Stopwatch();
+                AnagramService anagramService = new AnagramService();
+                
                 timer.Start();
-                var anagranResults = new AnagramService().Compute(fileProcess.LoadTextFile());
+                string processedFiles = fileProcess.LoadTextFile();
+                Console.WriteLine($"Loaded file in .....{timer.ElapsedMilliseconds}ms");
+
+                anagramService.ExtractWordsAsync(processedFiles);
+                Console.WriteLine($"Extracted the words on the file in .....{timer.ElapsedMilliseconds}ms");
+
+                Task<IEnumerable<AnagramCounter>>  t = anagramService.ComputeAsync();
+                Console.WriteLine();
+                Console.WriteLine($"Computing anagrams ......Good things come to those who wait :-)");
+
+                var anagramCounters = t.Result;
+                Console.WriteLine($"Anagram Results (completed in {timer.ElapsedMilliseconds}ms");
                 timer.Stop();
 
                 Console.WriteLine();
-                Console.WriteLine("Anagram Results (completed in {0} ms):", timer.ElapsedMilliseconds);
-                Console.WriteLine();
 
-                foreach (var anagramCounter in anagranResults)
+                foreach (var anagramCounter in anagramCounters)
                 {
                     Console.WriteLine(
                         "Words with the character length of {0} had {1} anagrams",

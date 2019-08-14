@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using System.Reflection;
 
 namespace DotNetRecruit
 {
+    /// <summary>
+    /// FileProcess: To Load The File
+    /// </summary>
     public class FileProcess
     {
         public string LoadTextFile()

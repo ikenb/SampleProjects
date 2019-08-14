@@ -58,9 +58,9 @@ namespace Calculator
 
         private string ManageNumberDisplay(string labelValue)
         {
-            string resultScreeValue = labelValue;
+            string resultScreeValue = resultLabel.Content.ToString();
 
-            if (resultScreeValue != "0" && labelValue != resultScreeValue)
+            if (resultScreeValue != "0")
                 labelValue = $"{resultScreeValue}{labelValue}";
 
             return labelValue;
@@ -69,24 +69,32 @@ namespace Calculator
         {
             selectedOperation = MathOperation.Addition;
             firstNumber = int.Parse(resultLabel.Content.ToString());
-
+            StickNumberOnScreen(firstNumber);
         }
         private void DivisionButton_Click(object sender, RoutedEventArgs e)
         {
             selectedOperation = MathOperation.Division;
             firstNumber = int.Parse(resultLabel.Content.ToString());
+            StickNumberOnScreen(firstNumber);
         }
 
         private void MultiplyButton_Click(object sender, RoutedEventArgs e)
         {
             selectedOperation = MathOperation.Multiple;
             firstNumber = int.Parse(resultLabel.Content.ToString());
+            StickNumberOnScreen(firstNumber);
         }
 
         private void SubstractionButton_Click(object sender, RoutedEventArgs e)
         {
             selectedOperation = MathOperation.Substraction;
             firstNumber = int.Parse(resultLabel.Content.ToString());
+            StickNumberOnScreen(firstNumber);
+        }
+
+        private void StickNumberOnScreen(double number)
+        {
+            resultLabel.Content = number.ToString();
         }
         private void EqualsButton_Click(object sender, RoutedEventArgs e)
         {
