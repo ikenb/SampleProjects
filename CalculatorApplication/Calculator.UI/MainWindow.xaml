@@ -1,0 +1,143 @@
+﻿<Window x:Class="Calculator.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator.UI"
+        mc:Ignorable="d"
+        Title="Calculator" Height="600" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               Content="0"
+               FontSize="100"
+               x:Name="outputLabel"
+               Grid.ColumnSpan="4"
+               Margin="5"
+               Width="480"
+               HorizontalContentAlignment="Right"/>
+
+        <Button Grid.Row="1"
+                Content="AC"
+                FontWeight="Bold"
+                FontSize="20"/>
+        <Button Grid.Row="1" Grid.Column="1"
+                Content="+/-"
+                FontWeight="Bold"
+                FontSize="20"/>
+        <Button Grid.Row="1" Grid.Column="2"
+                Content="%"
+                FontWeight="Bold"
+                FontSize="20"/>
+        <Button Grid.Row="1" Grid.Column="3"
+                Content="/"
+                FontWeight="Bold"
+                FontSize="20"/>
+
+        <Button Grid.Row="2"
+                Content="7"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="sevenButton"
+                Click="SevenButton_Click"/>
+        <Button Grid.Row="2" Grid.Column="1"
+                Content="8"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="eightButton"
+                Click="EightButton_Click"/>
+        <Button Grid.Row="2" Grid.Column="2"
+                Content="9"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="nineButton"
+                Click="NineButton_Click"/>
+        <Button Grid.Row="2" Grid.Column="3"
+                Content="*"
+                FontWeight="Bold"
+                FontSize="20"/>
+
+        <Button Grid.Row="3"
+                Content="4"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="fourButton"
+                Click="FourButton_Click"/>
+        <Button Grid.Row="3" Grid.Column="1"
+                Content="5"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="fiveButton"
+                Click="FiveButton_Click"/>
+        <Button Grid.Row="3" Grid.Column="2"
+                Content="6"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="sixButton"
+                Click="SixButton_Click"/>
+        <Button Grid.Row="3" Grid.Column="3"
+                Content="-"
+                FontWeight="Bold"
+                FontSize="20"/>
+
+        <Button Grid.Row="4"
+                Content="1"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="oneButton"
+                Click="OneButton_Click"/>
+        <Button Grid.Row="4" Grid.Column="1"
+                Content="2"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="twoButton"
+                Click="TwoButton_Click"/>
+        <Button Grid.Row="4" Grid.Column="2"
+                Content="3"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="threeButton"
+                Click="ThreeButton_Click"/>
+        <Button Grid.Row="4" Grid.Column="3"
+                Content="+"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="addButton"
+                Click="AddButton_Click"/>
+
+      
+        <Button Grid.Row="5" Grid.ColumnSpan="2"
+                Content="0"
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="zeroButton"
+                Click="ZeroButton_Click"/>
+        <Button Grid.Row="5" Grid.Column="2"
+                Content="."
+                FontWeight="Bold"
+                FontSize="20"
+                x:Name="buttonComma"
+                Click="ButtonComma_Click"/>
+        <Button Grid.Row="5" Grid.Column="3"
+                Content="="
+                FontWeight="Bold"
+                FontSize="20" 
+                x:Name="equalsButton"
+                Click="EqualsButton_Click"/>
+    </Grid>
+</Window>
