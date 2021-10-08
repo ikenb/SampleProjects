@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<h1>Sjieit Tree</h1>
+    
+    <ul data-bind="template: {name: 'tree-node', data: root}"></ul>
+    <div data-bind="if: selected">
+      <div data-bind="with: selected">
+        Selected Node:                 <span data-bind="text: name"></span>
+      </div>
+    </div>
+    
+    <input type="text" data-bind='value:searchterm, valueUpdate: "afterkeydown"'></input>
+    
+    <div data-bind="if: searchterm">
+      You searched for <span style="font-style:italic" data-bind="text:searchterm"></span>
+    </div>
