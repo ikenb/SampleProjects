@@ -1,0 +1,14 @@
+﻿@model Sql2Tree.Models.Tree
+
+@{
+    ViewBag.Title = "Sql2Tree No Root Node";
+}
+
+<h1>@ViewBag.Title</h1>
+
+@foreach (var node in Model.RootNode.Children)
+{
+<ul>
+    <li>@Html.DisplayFor(x => node)</li>
+</ul>
+}
