@@ -1,0 +1,12 @@
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNode.Model.dll.config
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNode.Model.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNode.Model.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.xml
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CoreCompileInputs.cache
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CopyComplete
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.AssemblyReference.cache

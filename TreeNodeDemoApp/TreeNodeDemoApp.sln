@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppConvertFolderDataToJasonFormat", "TreeNode.MVC\WebAppConvertFolderDataToJasonFormat.csproj", "{9A4A3761-1175-4E20-8456-A665352307D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeSample.Data", "TreeNodeSample.Data\TreeNodeSample.Data.csproj", "{80B9F140-DC9B-4CAD-9D09-1401D890C928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql2Tree", "Sql2Tree\Sql2Tree.csproj", "{C221121B-E014-4980-A280-89B1C83402AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeSample.Model", "TreeNodeSample.Model\TreeNodeSample.Model.csproj", "{E685C894-6CCF-474E-9A8B-BBF6577C6179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeSample.View", "TreeNodeSample.View\TreeNodeSample.View.csproj", "{92DCD295-03B4-4350-9338-35CC78660AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeSample.Logic", "TreeNodeSample.Logic\TreeNodeSample.Logic.csproj", "{61751575-7BB7-4C59-BD5E-2EFE179D6693}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A4A3761-1175-4E20-8456-A665352307D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A4A3761-1175-4E20-8456-A665352307D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A4A3761-1175-4E20-8456-A665352307D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A4A3761-1175-4E20-8456-A665352307D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C221121B-E014-4980-A280-89B1C83402AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C221121B-E014-4980-A280-89B1C83402AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C221121B-E014-4980-A280-89B1C83402AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C221121B-E014-4980-A280-89B1C83402AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B9F140-DC9B-4CAD-9D09-1401D890C928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B9F140-DC9B-4CAD-9D09-1401D890C928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B9F140-DC9B-4CAD-9D09-1401D890C928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B9F140-DC9B-4CAD-9D09-1401D890C928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E685C894-6CCF-474E-9A8B-BBF6577C6179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E685C894-6CCF-474E-9A8B-BBF6577C6179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E685C894-6CCF-474E-9A8B-BBF6577C6179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E685C894-6CCF-474E-9A8B-BBF6577C6179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DCD295-03B4-4350-9338-35CC78660AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DCD295-03B4-4350-9338-35CC78660AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DCD295-03B4-4350-9338-35CC78660AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DCD295-03B4-4350-9338-35CC78660AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61751575-7BB7-4C59-BD5E-2EFE179D6693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61751575-7BB7-4C59-BD5E-2EFE179D6693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61751575-7BB7-4C59-BD5E-2EFE179D6693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61751575-7BB7-4C59-BD5E-2EFE179D6693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

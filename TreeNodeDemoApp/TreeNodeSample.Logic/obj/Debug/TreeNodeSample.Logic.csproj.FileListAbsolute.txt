@@ -1,0 +1,8 @@
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Logic.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Logic.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample.Logic.csproj.CoreCompileInputs.cache
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample.Logic.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample.Logic.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample.Logic.csproj.AssemblyReference.cache
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\Newtonsoft.Json.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\Newtonsoft.Json.xml

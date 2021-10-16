@@ -1,8 +1,0 @@
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.csproj.AssemblyReference.cache
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.GeneratedMSBuildEditorConfig.editorconfig
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.AssemblyInfoInputs.cache
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.AssemblyInfo.cs
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.csproj.CoreCompileInputs.cache
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.MvcApplicationPartsAssemblyInfo.cache
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.RazorAssemblyInfo.cache
-C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNode.MVC\obj\Debug\netcoreapp3.1\TreeNode.MVC.RazorAssemblyInfo.cs

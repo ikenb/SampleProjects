@@ -1,0 +1,9 @@
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Spartans\MyMVPs\TaxCalculatorApp\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
