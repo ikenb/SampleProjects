@@ -63,7 +63,7 @@ namespace TreeNodeSample.Logic
         public decimal ComputeExciseTax(decimal stake, string formulaa)
         {
             char[] spearator = { '#', ' ' };
-            var list = formulaa.Split(spearator,StringSplitOptions.RemoveEmptyEntries);
+            var list = formulaa.Split(spearator, StringSplitOptions.RemoveEmptyEntries);
 
             var engine = new CalculationEngine();
             var exciseTaxFormula = string.Join(string.Empty, list);
@@ -72,11 +72,14 @@ namespace TreeNodeSample.Logic
 
             Dictionary<string, double> variables = new Dictionary<string, double>();
             variables.Add(list[0], (double)stake);
-           
+
 
             double result = formula(variables);
 
             return (decimal)result;
+
+            //Strategy Design Pattern https://codewithshadman.com/strategy-pattern-csharp/
+            //https://exceptionnotfound.net/strategy-pattern-in-csharp/
 
         }
 
@@ -130,7 +133,7 @@ namespace TreeNodeSample.Logic
         {
             using (var db = new TestDBEntities())
             {
-                
+
                 var results = db.GetCountryBettingTax(countryId).FirstOrDefault();
 
                 return JArray.Parse(results);
