@@ -4,7 +4,17 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="TestDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="TestDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CountryBettingTax">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FK_CountryID" Type="smallint" />
+          <Property Name="TaxData" Type="nvarchar(max)" />
+          <Property Name="CreatedDateTime" Type="datetime" />
+          <Property Name="isEnabled" Type="bit" />
+        </EntityType>
         <EntityType Name="TaxEntity">
           <Key>
             <PropertyRef Name="Id" />
@@ -13,11 +23,14 @@
           <Property Name="ParentId" Type="int" />
           <Property Name="Name" Type="nchar" MaxLength="25" />
         </EntityType>
+        <Function Name="GetCountryBettingTax" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CountryID" Type="int" Mode="In" />
+        </Function>
         <EntityContainer Name="TestDBModelStoreContainer">
+          <EntitySet Name="CountryBettingTax" EntityType="Self.CountryBettingTax" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TaxEntity" EntityType="Self.TaxEntity" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="TestDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -31,7 +44,21 @@
         </EntityType>
         <EntityContainer Name="TestDBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="TaxEntities" EntityType="Self.TaxEntity" />
+          <FunctionImport Name="GetCountryBettingTax" ReturnType="Collection(String)">
+          <Parameter Name="CountryID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="CountryBettingTaxes" EntityType="TestDBModel.CountryBettingTax" />
         </EntityContainer>
+        <EntityType Name="CountryBettingTax">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FK_CountryID" Type="Int16" />
+          <Property Name="TaxData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDateTime" Type="DateTime" Precision="3" />
+          <Property Name="isEnabled" Type="Boolean" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -44,6 +71,18 @@
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="ParentId" ColumnName="ParentId" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetCountryBettingTax" FunctionName="TestDBModel.Store.GetCountryBettingTax" />
+          <EntitySetMapping Name="CountryBettingTaxes">
+            <EntityTypeMapping TypeName="TestDBModel.CountryBettingTax">
+              <MappingFragment StoreEntitySet="CountryBettingTax">
+                <ScalarProperty Name="isEnabled" ColumnName="isEnabled" />
+                <ScalarProperty Name="CreatedDateTime" ColumnName="CreatedDateTime" />
+                <ScalarProperty Name="TaxData" ColumnName="TaxData" />
+                <ScalarProperty Name="FK_CountryID" ColumnName="FK_CountryID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

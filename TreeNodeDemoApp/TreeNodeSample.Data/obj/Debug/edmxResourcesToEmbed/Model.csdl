@@ -10,5 +10,19 @@
   </EntityType>
   <EntityContainer Name="TestDBEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="TaxEntities" EntityType="Self.TaxEntity" />
+    <FunctionImport Name="GetCountryBettingTax" ReturnType="Collection(String)">
+      <Parameter Name="CountryID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CountryBettingTaxes" EntityType="TestDBModel.CountryBettingTax" />
   </EntityContainer>
+  <EntityType Name="CountryBettingTax">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_CountryID" Type="Int16" />
+    <Property Name="TaxData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDateTime" Type="DateTime" Precision="3" />
+    <Property Name="isEnabled" Type="Boolean" />
+  </EntityType>
 </Schema>

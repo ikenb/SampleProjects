@@ -10,5 +10,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetCountryBettingTax" FunctionName="TestDBModel.Store.GetCountryBettingTax" />
+    <EntitySetMapping Name="CountryBettingTaxes">
+      <EntityTypeMapping TypeName="TestDBModel.CountryBettingTax">
+        <MappingFragment StoreEntitySet="CountryBettingTax">
+          <ScalarProperty Name="isEnabled" ColumnName="isEnabled" />
+          <ScalarProperty Name="CreatedDateTime" ColumnName="CreatedDateTime" />
+          <ScalarProperty Name="TaxData" ColumnName="TaxData" />
+          <ScalarProperty Name="FK_CountryID" ColumnName="FK_CountryID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

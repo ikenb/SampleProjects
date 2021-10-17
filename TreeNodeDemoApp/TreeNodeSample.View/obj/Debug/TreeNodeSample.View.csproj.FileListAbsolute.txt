@@ -21,3 +21,4 @@ D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.View\bin\Debug\EntityFramework
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.View\bin\Debug\Newtonsoft.Json.dll
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.View\bin\Debug\Newtonsoft.Json.xml
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.View\obj\Debug\TreeNodeSample.View.csproj.CopyComplete
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.View\bin\Debug\TreeNodeSample.Logic.dll.config

@@ -17,26 +17,30 @@ namespace TreeNodeSample.Logic
                 if (RootNode != null)
                     Nodes.Remove(RootNode.Id);
 
-                Nodes.Add(value.Id, value);
+                if(Nodes!= null)
+                    Nodes.Add(value.Id, value);
                 rootNode = value;
             }
         }
-
         public Dictionary<int, TreeNode> Nodes { get; set; }
-
 
         public void BuildTree()
         {
             TreeNode parent;
-            foreach (var node in Nodes.Values)
+
+            if(Nodes != null)
             {
-                if (Nodes.TryGetValue(node.ParentId, out parent) &&
-                    node.Id != node.ParentId)
+                foreach (var node in Nodes.Values)
                 {
-                    node.Parent = parent;
-                    parent.Children.Add(node);
+                    if (Nodes.TryGetValue(node.ParentId, out parent) &&
+                        node.Id != node.ParentId)
+                    {
+                        node.Parent = parent;
+                        parent.Formulae.Add(node);
+                    }
                 }
             }
+
         }
     }
 }

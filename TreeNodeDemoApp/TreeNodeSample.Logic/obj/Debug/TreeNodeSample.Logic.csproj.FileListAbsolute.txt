@@ -6,3 +6,16 @@ D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\obj\Debug\TreeNodeSample.Logic.csproj.AssemblyReference.cache
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\Newtonsoft.Json.dll
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\Newtonsoft.Json.xml
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\App.Config
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Logic.dll.config
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\EntityFramework.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNode.Model.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Data.dll
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Data.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNodeSample.Data.dll.config
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNode.Model.pdb
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\TreeNode.Model.dll.config
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\EntityFramework.xml
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Logic\bin\Debug\Microsoft.AspNet.EntityDataSource.dll

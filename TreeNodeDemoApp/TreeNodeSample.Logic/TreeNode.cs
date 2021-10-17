@@ -19,9 +19,12 @@ namespace TreeNodeSample.Logic
         [JsonIgnore]
         public TreeNode Parent;
 
-        public string Name;
+        public string Type;
+        public string Typeasdfa;
+        public string Typesfsdf;
+        public string Typsfsdfsdfse;
 
-        public List<TreeNode> Children = new List<TreeNode>();
+        public List<TreeNode> Formulae = new List<TreeNode>();
 
     }
 }

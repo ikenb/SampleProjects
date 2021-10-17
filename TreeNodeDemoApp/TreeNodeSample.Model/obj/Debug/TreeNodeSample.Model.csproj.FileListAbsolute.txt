@@ -6,7 +6,6 @@ D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramewor
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.xml
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CoreCompileInputs.cache
-D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CopyComplete
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.dll
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.pdb
-D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.AssemblyReference.cache
+D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CopyComplete

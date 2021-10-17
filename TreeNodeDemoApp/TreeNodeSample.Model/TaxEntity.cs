@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TreeNodeSample.Model
+namespace TreeNode.Model
 {
     using System;
     using System.Collections.Generic;

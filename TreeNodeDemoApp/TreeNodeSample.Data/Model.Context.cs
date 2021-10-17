@@ -12,8 +12,9 @@ namespace TreeNodeSample.Data
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    using TreeNodeSample.Model;
-    
+    using TreeNode.Model;
+    using System.Data.Entity.Core.Objects;
+
     public partial class TestDBEntities : DbContext
     {
         public TestDBEntities()
@@ -27,5 +28,15 @@ namespace TreeNodeSample.Data
         }
     
         public virtual DbSet<TaxEntity> TaxEntities { get; set; }
+        public virtual DbSet<CountryBettingTax> CountryBettingTaxes { get; set; }
+    
+        public virtual ObjectResult<string> GetCountryBettingTax(Nullable<int> countryID)
+        {
+            var countryIDParameter = countryID.HasValue ?
+                new ObjectParameter("CountryID", countryID) :
+                new ObjectParameter("CountryID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("GetCountryBettingTax", countryIDParameter);
+        }
     }
 }
