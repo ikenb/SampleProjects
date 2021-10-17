@@ -27,7 +27,7 @@ namespace TreeNodeSample.Logic
 
 
             var singleBet = new TaxSingleBetHandler();
-            
+
 
             var countryTaxMetaData = GetContryTaxMetaData(88);
             var extractedFormulae = ExtractTaxFormulae(countryTaxMetaData);
@@ -68,6 +68,9 @@ namespace TreeNodeSample.Logic
 
             return 1; // singleBet.ComputeTax(clientData.Stake, json);
 
+
+            // [  { "id": 1,    "type": "Sport",    "formulae": [      { "id": 0,        "name": "All",        "exciseTax": "#stake#*(7.5/100)",        "netStake": "#stake#-#excisetax#",        "withHoldingTax": "#payout#*(20/100)",        "netWinnings": "#payout#-#withholdingtax#",    	"isEnabled":true      }    ]  }]
+            //2021-10-08 13:59:13.383
         }
 
         private JArray GetContryTaxMetaData(short countryId)
@@ -79,7 +82,7 @@ namespace TreeNodeSample.Logic
                 return JArray.Parse(results);
             }
 
-            
+
         }
 
         private List<string> ExtractTaxFormulae(JArray countryTaxMetaData)
