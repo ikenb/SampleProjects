@@ -126,6 +126,9 @@ namespace TreeNodeSample.Logic
 
             return (decimal)result;
 
+
+            // [  { "id": 1,    "type": "Sport",    "formulae": [      { "id": 0,        "name": "All",        "exciseTax": "#stake#*(7.5/100)",        "netStake": "#stake#-#excisetax#",        "withHoldingTax": "#payout#*(20/100)",        "netWinnings": "#payout#-#withholdingtax#",    	"isEnabled":true      }    ]  }]
+            //2021-10-08 13:59:13.383
         }
 
 
