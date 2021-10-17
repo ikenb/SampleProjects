@@ -1,20 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="TestDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="TaxEntity">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" />
-    <Property Name="ParentId" Type="Int32" />
-    <Property Name="Name" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
-  </EntityType>
-  <EntityContainer Name="TestDBEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="TaxEntities" EntityType="Self.TaxEntity" />
-    <FunctionImport Name="GetCountryBettingTax" ReturnType="Collection(String)">
-      <Parameter Name="CountryID" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <EntitySet Name="CountryBettingTaxes" EntityType="TestDBModel.CountryBettingTax" />
-  </EntityContainer>
   <EntityType Name="CountryBettingTax">
     <Key>
       <PropertyRef Name="ID" />
@@ -25,4 +10,19 @@
     <Property Name="CreatedDateTime" Type="DateTime" Precision="3" />
     <Property Name="isEnabled" Type="Boolean" />
   </EntityType>
+  <EntityType Name="TaxEntity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="TestDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CountryBettingTaxes" EntityType="Self.CountryBettingTax" />
+    <EntitySet Name="TaxEntities" EntityType="Self.TaxEntity" />
+    <FunctionImport Name="GetCountryBettingTax" ReturnType="Collection(String)">
+      <Parameter Name="CountryId" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
 </Schema>

@@ -11,10 +11,11 @@ namespace TreeNodeSample.Data
 {
     using System;
     using System.Data.Entity;
+    using TreeNodeSample.Model;
     using System.Data.Entity.Infrastructure;
-    using TreeNode.Model;
     using System.Data.Entity.Core.Objects;
-
+    using System.Linq;
+    
     public partial class TestDBEntities : DbContext
     {
         public TestDBEntities()
@@ -27,16 +28,16 @@ namespace TreeNodeSample.Data
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<TaxEntity> TaxEntities { get; set; }
         public virtual DbSet<CountryBettingTax> CountryBettingTaxes { get; set; }
+        public virtual DbSet<TaxEntity> TaxEntities { get; set; }
     
-        public virtual ObjectResult<string> GetCountryBettingTax(Nullable<int> countryID)
+        public virtual ObjectResult<string> GetCountryBettingTax(Nullable<int> countryId)
         {
-            var countryIDParameter = countryID.HasValue ?
-                new ObjectParameter("CountryID", countryID) :
-                new ObjectParameter("CountryID", typeof(int));
+            var countryIdParameter = countryId.HasValue ?
+                new ObjectParameter("CountryId", countryId) :
+                new ObjectParameter("CountryId", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("GetCountryBettingTax", countryIDParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("GetCountryBettingTax", countryIdParameter);
         }
     }
 }

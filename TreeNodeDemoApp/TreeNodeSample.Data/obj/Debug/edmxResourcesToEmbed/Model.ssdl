@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="TestDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="CountryBettingTax">
+  <EntityType Name="CountryBettingTaxes">
     <Key>
       <PropertyRef Name="ID" />
     </Key>
@@ -10,7 +10,7 @@
     <Property Name="CreatedDateTime" Type="datetime" />
     <Property Name="isEnabled" Type="bit" />
   </EntityType>
-  <EntityType Name="TaxEntity">
+  <EntityType Name="TaxEntities">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -19,10 +19,10 @@
     <Property Name="Name" Type="nchar" MaxLength="25" />
   </EntityType>
   <Function Name="GetCountryBettingTax" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="CountryID" Type="int" Mode="In" />
+    <Parameter Name="CountryId" Type="int" Mode="In" />
   </Function>
   <EntityContainer Name="TestDBModelStoreContainer">
-    <EntitySet Name="CountryBettingTax" EntityType="Self.CountryBettingTax" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="TaxEntity" EntityType="Self.TaxEntity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CountryBettingTaxes" EntityType="Self.CountryBettingTaxes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaxEntities" EntityType="Self.TaxEntities" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

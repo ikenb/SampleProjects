@@ -9,3 +9,15 @@ D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.dll
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNode.Model.pdb
 D:\Spartans\MyMVPs\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CopyComplete
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNodeSample.Model.dll.config
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNodeSample.Model.dll
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\TreeNodeSample.Model.pdb
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.dll
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.xml
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.AssemblyReference.cache
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CoreCompileInputs.cache
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.csproj.CopyComplete
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.dll
+C:\IkenB\MVPs\SampleProjects\TreeNodeDemoApp\TreeNodeSample.Model\obj\Debug\TreeNodeSample.Model.pdb
