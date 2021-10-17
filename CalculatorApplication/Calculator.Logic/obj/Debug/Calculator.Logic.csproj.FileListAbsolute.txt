@@ -1,6 +1,0 @@
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\bin\Debug\Calculator.Logic.dll
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\bin\Debug\Calculator.Logic.pdb
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\obj\Debug\Calculator.Logic.csprojAssemblyReference.cache
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\obj\Debug\Calculator.Logic.csproj.CoreCompileInputs.cache
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\obj\Debug\Calculator.Logic.dll
-C:\IkenB\Projects\CalculatorApplication\Calculator.Logic\obj\Debug\Calculator.Logic.pdb

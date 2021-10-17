@@ -1,6 +1,0 @@
-C:\Programming\Projects\IkenOrganise\Organiser.Model\bin\Debug\Organiser.Model.dll
-C:\Programming\Projects\IkenOrganise\Organiser.Model\bin\Debug\Organiser.Model.pdb
-C:\Programming\Projects\IkenOrganise\Organiser.Model\obj\Debug\Organiser.Model.csproj.CoreCompileInputs.cache
-C:\Programming\Projects\IkenOrganise\Organiser.Model\obj\Debug\Organiser.Model.dll
-C:\Programming\Projects\IkenOrganise\Organiser.Model\obj\Debug\Organiser.Model.pdb
-C:\Programming\Projects\IkenOrganise\Organiser.Model\obj\Debug\Organiser.Model.csprojAssemblyReference.cache
