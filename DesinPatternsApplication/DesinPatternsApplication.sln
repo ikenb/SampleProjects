@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern", "St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDesignPattern", "FacadeDesignPattern\FacadeDesignPattern.csproj", "{2489C105-2F20-45E6-ADA6-461D440DE9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "RedisDemo\RedisDemo.csproj", "{522FD903-469A-44B3-9E56-264C977A0E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
