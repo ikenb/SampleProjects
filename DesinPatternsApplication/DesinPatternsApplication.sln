@@ -9,7 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern", "St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDesignPattern", "FacadeDesignPattern\FacadeDesignPattern.csproj", "{2489C105-2F20-45E6-ADA6-461D440DE9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{EBD6B72D-A148-4EA3-B40D-5356882E61FC}"
+	ProjectSection(SolutionItems) = preProject
+		Programs\C#_ Level 1.docx = Programs\C#_ Level 1.docx
+		Programs\C#_ Level 2.docx = Programs\C#_ Level 2.docx
+		Programs\C#_ Level 3.docx = Programs\C#_ Level 3.docx
+		Programs\C#_ Level 4.docx = Programs\C#_ Level 4.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
