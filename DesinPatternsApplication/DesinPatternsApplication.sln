@@ -18,6 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{EB
 		Programs\C#_ Level 3.docx = Programs\C#_ Level 3.docx
 		Programs\C#_ Level 4.docx = Programs\C#_ Level 4.docx
 	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "RedisDemo\RedisDemo.csproj", "{522FD903-469A-44B3-9E56-264C977A0E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +44,10 @@ Global
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C396EAB2-28EE-4A5B-9D3F-7A3F283593DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FD903-469A-44B3-9E56-264C977A0E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
